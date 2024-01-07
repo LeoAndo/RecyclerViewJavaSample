@@ -8,10 +8,23 @@ public final class Item {
     private final int internalId;
 
     @NonNull
-    private final String title;
+    private String title;
 
     public Item(int internalId, @NonNull String title) {
         this.internalId = internalId;
+        this.title = title;
+    }
+
+    public int getInternalId() {
+        return internalId;
+    }
+
+    @NonNull
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(@NonNull String title) {
         this.title = title;
     }
 
