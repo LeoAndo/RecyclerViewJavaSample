@@ -1,6 +1,7 @@
 Javaを使ったRecyclerViewのサンプル<br>
 Android javaは現状javaのrecordを使えないのでequalsとhashcodeをカスタムする必要があるのが注意点<br>
 https://docs.oracle.com/javase/jp/15/language/records.html<br>
+https://docs.oracle.com/javase/jp/21/docs/api/java.base/java/lang/Record.html<BR>
 
 # development env
 ```
